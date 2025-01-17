@@ -41,7 +41,7 @@ This project is a web-based application that calculates the age of a user in ter
 ## Setup and Usage
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/age-event-calculator.git
+   git clone https://github.com/adnaan-fullstack/age-event-calculator.git
    ```
 2. Navigate to the project directory:
    ```bash

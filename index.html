@@ -21,30 +21,38 @@
         />
       </div>
       <div class="input-fields">
-        <label for="day" class="label-day">Day</label>
-        <label for="month" class="label-month">Month</label>
-        <label for="year" class="label-year">Year</label>
-        <input
-          type="text"
-          maxlength="2"
-          placeholder="00"
-          name="day"
-          class="day-input inputs errordetector"
-        />
-        <input
-          type="text"
-          maxlength="2"
-          placeholder="00"
-          name="month"
-          class="month-input inputs errordetector"
-        />
-        <input
-          type="text"
-          maxlength="4"
-          placeholder="0000"
-          name="year"
-          class="year-input inputs"
-        />
+        <div class="day-grid">
+          <label for="day" class="label-day">Day</label>
+          <input
+            type="text"
+            maxlength="2"
+            placeholder="00"
+            name="day"
+            class="day-input inputs errordetector"
+          />
+        </div>
+        <div class="month-grid">
+          <label for="month" class="label-month">Month</label>
+
+          <input
+            type="text"
+            maxlength="2"
+            placeholder="00"
+            name="month"
+            class="month-input inputs errordetector"
+          />
+        </div>
+        <div class="year-grid">
+          <label for="year" class="label-year">Year</label>
+          <input
+            type="text"
+            maxlength="4"
+            placeholder="0000"
+            name="year"
+            class="year-input inputs"
+          />
+        </div>
+
         <button class="btn-calculate">
           <i class="fa-solid fa-arrow-down"></i>
         </button>
